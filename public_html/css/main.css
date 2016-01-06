@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-01-06, 18:34:21
+    Author     : kamil
+*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    background-color:#4696e5;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #B0D0EF;
+    border-radius: 0.2em;
+    height: 3.2em;
+    width: 3.2em;
+    font-size: 1.1em;
+    color: #B0D0EF;
+    margin: 0.13em;
+    
+    
+}
+
+.btn-zero{
+    width: 6.9em;
+}
+
+.btn:hover{
+    font-weight: bolder;
+    color: white;
+    border-color: white;
+}
+
+.btn:active{
+    background-color: #3575B3;
+    border-color: white;
+}
+
+.btn-red:active{
+    background-color: #f86565;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-container-l{
+    width: 13em;
+    overflow: auto;
+    float: left;
+}
+
+.btn-container-r{
+    width: 7em;
+    overflow: auto;
+    /* float: right; */
+}
+
+.container{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result-container{
+    border: 1px solid #B0D0EF;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    width: 16.5em;
+    height: 3em;
+    
+    color: #B0D0EF;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+.result-container h3{
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
